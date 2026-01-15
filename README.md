@@ -14,7 +14,8 @@ Lightweight NestJS boilerplate ready for new services. It keeps only the essenti
 2) Configure environment (see `.development.env` or `.env.example`), then run:
    - `npm run start:dev` for local development
    - `npm run start:prod` after `npm run build`
-3) Visit `/docs` to confirm the app is running and to explore the API.
+3) set your kubernetes cluster config at 'kube/kubeconfig.yaml'
+4) Visit `/docs` to confirm the app is running and to explore the API.
 
 ## Environment variables
 - `APP_PORT`: Port to bind the server (default: `3000`).
